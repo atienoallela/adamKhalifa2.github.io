@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NEW</title>
+    <style>
+        ul{
+            list-style-type: none;
+            overflow: hidden;
+            background-color: red;
+            font-family: bolder;
+            li{
+                float: left;
+                padding: 20px;
+                display: block;
+                text-decoration: none;
+                font-family: bolder;
+
+            }
+            li a{
+                color: #34495e;
+
+            }
+        }
+        #container{
+            width: 600px;
+            overflow: hidden;
+            float: left;
+        }
+        #images{
+            width: 200px;
+            float: left;
+            display: inline;
+        }
+        #bio{
+            width: 75%;
+            float: right;
+            padding: 1px;
+            font-family: Algerian;
+            color: #2ecc71;
+        }
+        .rounded{
+            border-radius:50%;
+            margin-left: 50px;
+        }
+        input[type=text] ,select{
+            width 100%;
+            border-radius: 5px;
+            padding: 12px 28px;
+                          }
+                          input[type=submit]{
+                              background-color: #3498db;
+                              width: 100%;
+                              border-radius: 5px;
+                              padding: 12px 20px;
+
+                          }
+                          #contactus{
+                              background-color: cadetblue;
+                              border-radius: 10px;
+                          }
+                          input[type=submit]:hover{
+                              background-color: red;
+                          }
+                          #maps{
+                              float: right;
+
+                          }
+
+
+
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="">Home </a></li>
+    <li><a href="">About us </a></li>
+    <li><a href="">Contact </a></li>
+</ul>
+<br>
+<div class="container">
+    <div id="container"></div>
+    <div id="images">
+        <img src="assets/images/chiron2.jpeg">
+    </div>
+</div>
+    <div id="bio">
+        <p style="text-align: center">Every atom has a certain number of protons, electrons and neutrons. Protons carry a positive charge, electrons carry a negative charge and neutrons do not carry a charge. Protons and neutrons make up the nucleus or central part of the atom. Electrons orbit around the nucleus. Most atoms have isotopes that occur naturally. An isotope is an atom with a different number of neutrons, but the same number of protons and electrons. Each element has a standard number of neutrons that can be found by looking at a periodic table. From the periodic table, you will get the atomic number on the top left corner of the box. This is the number of protons. The atomic weight of the element can be found on the bottom of the box on the periodic table.</p>
+</div>
+<table>
+    <tr>
+        <td><img src="assets/images/chiron.jpeg" class="rounded"></td>
+        <td><img src="assets/images/chiron2.jpeg" class="rounded"></td>
+        <td><img src="assets/images/chiron%204.jpeg"class="rounded"></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td><img src="assets/images/chiron.jpeg" class="rounded"></td>
+        <td><img src="assets/images/chiron2.jpeg" class="rounded"></td>
+        <td><img src="assets/images/chiron%204.jpeg"class="rounded"></td>
+    </tr>
+</table>
+<div id="contactus">
+     <h3 style="text-align: center">Contact Us</h3>
+<form>
+    <div class="maps">
+    <div id="maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8179950422104!2d36.82345517415253!3d-1.2830416987047604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d6657fa981%3A0xa892b9267f5b9a40!2sSarova%20Stanley%20Nairobi%20-%205%20Star%20Hotel!5e0!3m2!1sen!2ske!4v1705585224162!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+    </div>
+    <label>First Name</label><br>
+    <input type="text"><br>
+    <label>Surname</label><br>
+    <input type="text"><br>
+    <label>Surname</label><br>
+    <input type="text"><br>
+    <label>Gender</label><br>
+    <input type="radio" value="Male" id="male">
+    <label for="male">Male</label><br>
+    <input type="radio" value="Female" id="female">
+    <label for="female">Female</label><br>
+    <label>country</label>
+    <select  id="Country">
+        <option>Kenya</option>
+        <option>Tanzania</option>
+        <option>Rwanda</option>
+    </select><br>
+
+
+    <label for="18-21">Are you working</label>
+        <input type="checkbox" id="18-21"><br>
+          <label for="date">Enter your date of birth </label>
+    <input type="date" id="date"><br>
+    <label for="password">Enter your Password</label>
+    <input type="password" id="password"><br>
+    <input type="submit" id="submit">
+
+
+</div>
+</form>
+</body>
+</html>
